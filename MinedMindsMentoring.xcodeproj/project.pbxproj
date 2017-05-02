@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F2EF4461EAE9E2D00A851D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2EF4451EAE9E2D00A851D2 /* AppDelegate.swift */; };
+		0F2EF4481EAE9E2D00A851D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2EF4471EAE9E2D00A851D2 /* ViewController.swift */; };
+		0F2EF44B1EAE9E2D00A851D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2EF4491EAE9E2D00A851D2 /* Main.storyboard */; };
+		0F2EF44D1EAE9E2D00A851D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F2EF44C1EAE9E2D00A851D2 /* Images.xcassets */; };
+		0F2EF4501EAE9E2D00A851D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2EF44E1EAE9E2D00A851D2 /* LaunchScreen.storyboard */; };
+		0F2EF45B1EAE9E2D00A851D2 /* MinedMindsMentoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2EF45A1EAE9E2D00A851D2 /* MinedMindsMentoringTests.swift */; };
+		0F2EF4661EAE9E2D00A851D2 /* MinedMindsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2EF4651EAE9E2D00A851D2 /* MinedMindsUITests.swift */; };
+		0F2F186D1EB8C5100036D402 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2F186C1EB8C5100036D402 /* Request.swift */; };
+		0F3357731EB7D7AD00664299 /* logIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3357721EB7D7AD00664299 /* logIn.swift */; };
+		0F93B9F81EB6DEFF004E1F64 /* Mentors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F93B9F71EB6DEFF004E1F64 /* Mentors.swift */; };
+		0FA90C751EB8326100973FCD /* mainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA90C741EB8326100973FCD /* mainPage.swift */; };
+		A8BC52FD42AC7CA31F2B96CD /* Pods_MinedMindsMentoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D428035516DD2AD1B5CB76 /* Pods_MinedMindsMentoring.framework */; };
+		B26D2A661EB905E4007CC18C /* Login.plist in Resources */ = {isa = PBXBuildFile; fileRef = B26D2A651EB905E4007CC18C /* Login.plist */; };
+		B26D2A691EB908A9007CC18C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B26D2A681EB908A9007CC18C /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F2EF4571EAE9E2D00A851D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F2EF43A1EAE9E2C00A851D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F2EF4411EAE9E2C00A851D2;
+			remoteInfo = MinedMinds;
+		};
+		0F2EF4621EAE9E2D00A851D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F2EF43A1EAE9E2C00A851D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F2EF4411EAE9E2C00A851D2;
+			remoteInfo = MinedMinds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F2EF4421EAE9E2D00A851D2 /* MinedMindsMentoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinedMindsMentoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F2EF4451EAE9E2D00A851D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F2EF4471EAE9E2D00A851D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F2EF44A1EAE9E2D00A851D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F2EF44C1EAE9E2D00A851D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0F2EF44F1EAE9E2D00A851D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F2EF4511EAE9E2D00A851D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F2EF4561EAE9E2D00A851D2 /* MinedMindsMentoringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinedMindsMentoringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F2EF45A1EAE9E2D00A851D2 /* MinedMindsMentoringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinedMindsMentoringTests.swift; sourceTree = "<group>"; };
+		0F2EF45C1EAE9E2D00A851D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F2EF4611EAE9E2D00A851D2 /* MinedMindsMentoringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinedMindsMentoringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F2EF4651EAE9E2D00A851D2 /* MinedMindsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinedMindsUITests.swift; sourceTree = "<group>"; };
+		0F2EF4671EAE9E2D00A851D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F2F186C1EB8C5100036D402 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		0F3357721EB7D7AD00664299 /* logIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = logIn.swift; sourceTree = "<group>"; };
+		0F93B9F71EB6DEFF004E1F64 /* Mentors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mentors.swift; sourceTree = "<group>"; };
+		0FA90C741EB8326100973FCD /* mainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainPage.swift; sourceTree = "<group>"; };
+		4564D20F3B351F26A112A658 /* Pods-MinedMindsMentoring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinedMindsMentoring.release.xcconfig"; path = "Pods/Target Support Files/Pods-MinedMindsMentoring/Pods-MinedMindsMentoring.release.xcconfig"; sourceTree = "<group>"; };
+		AE007149B3A2A242DAF0842B /* Pods-MinedMindsMentoring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinedMindsMentoring.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MinedMindsMentoring/Pods-MinedMindsMentoring.debug.xcconfig"; sourceTree = "<group>"; };
+		B26D2A651EB905E4007CC18C /* Login.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Login.plist; sourceTree = "<group>"; };
+		B26D2A671EB9062A007CC18C /* MinedMindsMentoring.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MinedMindsMentoring.entitlements; sourceTree = SOURCE_ROOT; };
+		B26D2A681EB908A9007CC18C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D3D428035516DD2AD1B5CB76 /* Pods_MinedMindsMentoring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinedMindsMentoring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F2EF43F1EAE9E2C00A851D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BC52FD42AC7CA31F2B96CD /* Pods_MinedMindsMentoring.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F2EF4531EAE9E2D00A851D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F2EF45E1EAE9E2D00A851D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F2EF4391EAE9E2C00A851D2 = {
+			isa = PBXGroup;
+			children = (
+				0F2EF4441EAE9E2D00A851D2 /* MinedMindsMentoring */,
+				0F2EF4591EAE9E2D00A851D2 /* MinedMindsMentoringTests */,
+				0F2EF4641EAE9E2D00A851D2 /* MinedMindsMentoringUITests */,
+				0F2EF4431EAE9E2D00A851D2 /* Products */,
+				A3DE3F62C170650B35F95791 /* Pods */,
+				AEE090B7F26A334BA966D169 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0F2EF4431EAE9E2D00A851D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F2EF4421EAE9E2D00A851D2 /* MinedMindsMentoring.app */,
+				0F2EF4561EAE9E2D00A851D2 /* MinedMindsMentoringTests.xctest */,
+				0F2EF4611EAE9E2D00A851D2 /* MinedMindsMentoringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F2EF4441EAE9E2D00A851D2 /* MinedMindsMentoring */ = {
+			isa = PBXGroup;
+			children = (
+				B26D2A671EB9062A007CC18C /* MinedMindsMentoring.entitlements */,
+				0F2EF4451EAE9E2D00A851D2 /* AppDelegate.swift */,
+				0F2EF4471EAE9E2D00A851D2 /* ViewController.swift */,
+				0F93B9F71EB6DEFF004E1F64 /* Mentors.swift */,
+				0FA90C741EB8326100973FCD /* mainPage.swift */,
+				0F2EF4491EAE9E2D00A851D2 /* Main.storyboard */,
+				0F2EF44C1EAE9E2D00A851D2 /* Images.xcassets */,
+				0F2EF44E1EAE9E2D00A851D2 /* LaunchScreen.storyboard */,
+				B26D2A681EB908A9007CC18C /* GoogleService-Info.plist */,
+				0F2EF4511EAE9E2D00A851D2 /* Info.plist */,
+				B26D2A651EB905E4007CC18C /* Login.plist */,
+				0F3357721EB7D7AD00664299 /* logIn.swift */,
+				0F2F186C1EB8C5100036D402 /* Request.swift */,
+			);
+			name = MinedMindsMentoring;
+			path = MinedMinds;
+			sourceTree = "<group>";
+		};
+		0F2EF4591EAE9E2D00A851D2 /* MinedMindsMentoringTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F2EF45A1EAE9E2D00A851D2 /* MinedMindsMentoringTests.swift */,
+				0F2EF45C1EAE9E2D00A851D2 /* Info.plist */,
+			);
+			name = MinedMindsMentoringTests;
+			path = MinedMindsTests;
+			sourceTree = "<group>";
+		};
+		0F2EF4641EAE9E2D00A851D2 /* MinedMindsMentoringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F2EF4651EAE9E2D00A851D2 /* MinedMindsUITests.swift */,
+				0F2EF4671EAE9E2D00A851D2 /* Info.plist */,
+			);
+			name = MinedMindsMentoringUITests;
+			path = MinedMindsUITests;
+			sourceTree = "<group>";
+		};
+		A3DE3F62C170650B35F95791 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE007149B3A2A242DAF0842B /* Pods-MinedMindsMentoring.debug.xcconfig */,
+				4564D20F3B351F26A112A658 /* Pods-MinedMindsMentoring.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEE090B7F26A334BA966D169 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3D428035516DD2AD1B5CB76 /* Pods_MinedMindsMentoring.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F2EF4411EAE9E2C00A851D2 /* MinedMindsMentoring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F2EF46A1EAE9E2D00A851D2 /* Build configuration list for PBXNativeTarget "MinedMindsMentoring" */;
+			buildPhases = (
+				4DEC657749F35749F01E10D8 /* [CP] Check Pods Manifest.lock */,
+				0F2EF43E1EAE9E2C00A851D2 /* Sources */,
+				0F2EF43F1EAE9E2C00A851D2 /* Frameworks */,
+				0F2EF4401EAE9E2C00A851D2 /* Resources */,
+				AE7A9623A38C07C2001C1421 /* [CP] Embed Pods Frameworks */,
+				F2764C6C9741FB80FD541505 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinedMindsMentoring;
+			productName = MinedMinds;
+			productReference = 0F2EF4421EAE9E2D00A851D2 /* MinedMindsMentoring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F2EF4551EAE9E2D00A851D2 /* MinedMindsMentoringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F2EF46D1EAE9E2D00A851D2 /* Build configuration list for PBXNativeTarget "MinedMindsMentoringTests" */;
+			buildPhases = (
+				0F2EF4521EAE9E2D00A851D2 /* Sources */,
+				0F2EF4531EAE9E2D00A851D2 /* Frameworks */,
+				0F2EF4541EAE9E2D00A851D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F2EF4581EAE9E2D00A851D2 /* PBXTargetDependency */,
+			);
+			name = MinedMindsMentoringTests;
+			productName = MinedMindsTests;
+			productReference = 0F2EF4561EAE9E2D00A851D2 /* MinedMindsMentoringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F2EF4601EAE9E2D00A851D2 /* MinedMindsMentoringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F2EF4701EAE9E2D00A851D2 /* Build configuration list for PBXNativeTarget "MinedMindsMentoringUITests" */;
+			buildPhases = (
+				0F2EF45D1EAE9E2D00A851D2 /* Sources */,
+				0F2EF45E1EAE9E2D00A851D2 /* Frameworks */,
+				0F2EF45F1EAE9E2D00A851D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F2EF4631EAE9E2D00A851D2 /* PBXTargetDependency */,
+			);
+			name = MinedMindsMentoringUITests;
+			productName = MinedMindsUITests;
+			productReference = 0F2EF4611EAE9E2D00A851D2 /* MinedMindsMentoringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F2EF43A1EAE9E2C00A851D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tula Ram Subba";
+				TargetAttributes = {
+					0F2EF4411EAE9E2C00A851D2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = S3725VKX58;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					0F2EF4551EAE9E2D00A851D2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EHS7PH589P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0F2EF4411EAE9E2C00A851D2;
+					};
+					0F2EF4601EAE9E2D00A851D2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EHS7PH589P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0F2EF4411EAE9E2C00A851D2;
+					};
+				};
+			};
+			buildConfigurationList = 0F2EF43D1EAE9E2C00A851D2 /* Build configuration list for PBXProject "MinedMindsMentoring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F2EF4391EAE9E2C00A851D2;
+			productRefGroup = 0F2EF4431EAE9E2D00A851D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F2EF4411EAE9E2C00A851D2 /* MinedMindsMentoring */,
+				0F2EF4551EAE9E2D00A851D2 /* MinedMindsMentoringTests */,
+				0F2EF4601EAE9E2D00A851D2 /* MinedMindsMentoringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F2EF4401EAE9E2C00A851D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2EF4501EAE9E2D00A851D2 /* LaunchScreen.storyboard in Resources */,
+				0F2EF44D1EAE9E2D00A851D2 /* Images.xcassets in Resources */,
+				B26D2A691EB908A9007CC18C /* GoogleService-Info.plist in Resources */,
+				B26D2A661EB905E4007CC18C /* Login.plist in Resources */,
+				0F2EF44B1EAE9E2D00A851D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F2EF4541EAE9E2D00A851D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F2EF45F1EAE9E2D00A851D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DEC657749F35749F01E10D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE7A9623A38C07C2001C1421 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MinedMindsMentoring/Pods-MinedMindsMentoring-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2764C6C9741FB80FD541505 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MinedMindsMentoring/Pods-MinedMindsMentoring-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F2EF43E1EAE9E2C00A851D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA90C751EB8326100973FCD /* mainPage.swift in Sources */,
+				0F2F186D1EB8C5100036D402 /* Request.swift in Sources */,
+				0F3357731EB7D7AD00664299 /* logIn.swift in Sources */,
+				0F2EF4481EAE9E2D00A851D2 /* ViewController.swift in Sources */,
+				0F93B9F81EB6DEFF004E1F64 /* Mentors.swift in Sources */,
+				0F2EF4461EAE9E2D00A851D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F2EF4521EAE9E2D00A851D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2EF45B1EAE9E2D00A851D2 /* MinedMindsMentoringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F2EF45D1EAE9E2D00A851D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2EF4661EAE9E2D00A851D2 /* MinedMindsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F2EF4581EAE9E2D00A851D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F2EF4411EAE9E2C00A851D2 /* MinedMindsMentoring */;
+			targetProxy = 0F2EF4571EAE9E2D00A851D2 /* PBXContainerItemProxy */;
+		};
+		0F2EF4631EAE9E2D00A851D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F2EF4411EAE9E2C00A851D2 /* MinedMindsMentoring */;
+			targetProxy = 0F2EF4621EAE9E2D00A851D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F2EF4491EAE9E2D00A851D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F2EF44A1EAE9E2D00A851D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F2EF44E1EAE9E2D00A851D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F2EF44F1EAE9E2D00A851D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F2EF4681EAE9E2D00A851D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F2EF4691EAE9E2D00A851D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F2EF46B1EAE9E2D00A851D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE007149B3A2A242DAF0842B /* Pods-MinedMindsMentoring.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MinedMindsMentoring.entitlements;
+				DEVELOPMENT_TEAM = S3725VKX58;
+				INFOPLIST_FILE = MinedMinds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.minedminds.MMMentoring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0F2EF46C1EAE9E2D00A851D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4564D20F3B351F26A112A658 /* Pods-MinedMindsMentoring.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MinedMindsMentoring.entitlements;
+				DEVELOPMENT_TEAM = S3725VKX58;
+				INFOPLIST_FILE = MinedMinds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.minedminds.MMMentoring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0F2EF46E1EAE9E2D00A851D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EHS7PH589P;
+				INFOPLIST_FILE = MinedMindsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.ios.MinedMindsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinedMindsMentoring.app/MinedMindsMentoring";
+			};
+			name = Debug;
+		};
+		0F2EF46F1EAE9E2D00A851D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EHS7PH589P;
+				INFOPLIST_FILE = MinedMindsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.ios.MinedMindsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinedMindsMentoring.app/MinedMindsMentoring";
+			};
+			name = Release;
+		};
+		0F2EF4711EAE9E2D00A851D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EHS7PH589P;
+				INFOPLIST_FILE = MinedMindsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.ios.MinedMindsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MinedMinds;
+			};
+			name = Debug;
+		};
+		0F2EF4721EAE9E2D00A851D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EHS7PH589P;
+				INFOPLIST_FILE = MinedMindsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.ios.MinedMindsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MinedMinds;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F2EF43D1EAE9E2C00A851D2 /* Build configuration list for PBXProject "MinedMindsMentoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F2EF4681EAE9E2D00A851D2 /* Debug */,
+				0F2EF4691EAE9E2D00A851D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F2EF46A1EAE9E2D00A851D2 /* Build configuration list for PBXNativeTarget "MinedMindsMentoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F2EF46B1EAE9E2D00A851D2 /* Debug */,
+				0F2EF46C1EAE9E2D00A851D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F2EF46D1EAE9E2D00A851D2 /* Build configuration list for PBXNativeTarget "MinedMindsMentoringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F2EF46E1EAE9E2D00A851D2 /* Debug */,
+				0F2EF46F1EAE9E2D00A851D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F2EF4701EAE9E2D00A851D2 /* Build configuration list for PBXNativeTarget "MinedMindsMentoringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F2EF4711EAE9E2D00A851D2 /* Debug */,
+				0F2EF4721EAE9E2D00A851D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F2EF43A1EAE9E2C00A851D2 /* Project object */;
+}
