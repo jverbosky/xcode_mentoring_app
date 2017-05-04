@@ -6,7 +6,10 @@ target 'MinedMindsMentoring' do
   use_frameworks!
 
   # Pods for MinedMindsMentoring
+  
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
   pod 'Firebase/Messaging'
   pod 'SwiftyPlistManager'
 
